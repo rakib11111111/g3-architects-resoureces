@@ -66,5 +66,30 @@ nav ul a {
     background: #FF900E;
     border: none;
     color: #FFF;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.banner img{
+    margin-top: 30px;
+    width: 100%;
+}
+
+/*Responsive Media queries*/
+/*mobile devices*/
+@media  screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/*tablet or medium devices*/
+@media  screen and (min-width: 576px) and (max-width: 990px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+     padding: 45px;
+    }
 }
